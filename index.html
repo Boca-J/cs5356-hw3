@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="profile">
+        <img src='messi.jpg' alt="Messi"> </img>
+        <div> 
+            <h1> <strong> Short Bio: </strong></h1>
+            <p> Hi, I'm Jacob! Welcome to my personal homepage. I'm passionate about technology, web development, and building creative projects. In my free time, I enjoy exploring new coding challenges, watching soccer (huge Ronaldo fan!), and learning about the latest trends in software development. Feel free to check out my work and connect!</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: xj82@cornell.edu</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/xizhe-jiang-85920a327/" target="_blank">Jacob's LinkedIn</a></p>
+    </section>
+    <section class="extra-info">
+        <h2>Extra HTML element</h2>
+        <details>
+            <summary>Click to see what I learn from the detail element!</summary>
+            <p> I used the &lt;details&gt; element, which allows users to toggle additional content without needing JavaScript. Test in the  &lt;summary&gt; tag will show up, and the other content inside  &lt;details&gt; stays hidden until clicked.</p>
+        </details>
+    </section>
+    <section class="joke">
+        <h2>Random Joke</h2>
+        <p id="joke">Loading joke...</p>
+        <button onclick="get_data()">Get Another Joke</button>
+        
+</body>
+<script src="script.js"></script>
+</html>
